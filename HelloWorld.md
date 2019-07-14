@@ -102,3 +102,11 @@ https://stackoverflow.com/questions/36703856/access-tomcat-manager-app-from-diff
     <Valve className="org.apache.catalina.valves.RemoteAddrValve" allow="^.*$" />
 </Context>
 ```
+
+## Change the default port of Tomcat
+### Modify the port number in conf/server.xml
+```
+<Connector port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+```
