@@ -8,6 +8,9 @@ A key pair gets downloaded before launching the instance
 ### Connect to the instance from the command line
 `ssh -i "<path of the pem file>" ec2-user@ec2-36-215-39-147.us-west-2.compute.amazonaws.com`
 
+## Update all the applications before installing
+`sudo yum update -y`
+
 ## Install java
 https://bhargavamin.com/how-to-do/setting-up-java-environment-variable-on-ec2/
 ```
@@ -19,7 +22,7 @@ sudo yum remove java-1.7.0-openjdk
 ### To set the java path
 ```
 sudo /usr/sbin/alternatives --set java /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/java
-sudo /usr/sbin/alternatives --set javac /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/java
+sudo /usr/sbin/alternatives --set javac /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bin/javac
 export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk.x86_64"
 export PATH=$JAVA_HOME/bin:$PATH  
 ```
@@ -36,9 +39,6 @@ mvn --version
 ```
 
 ## Install Git
-### Update all the applications before installing
-`sudo yum update -y`
-
 ### Install Git using yum
 ```
 sudo yum install git -y
@@ -54,7 +54,7 @@ cd mygit/
 ### To check the status (of working tree)
 `git status`
 ### Clone the hello world program from github
-`git clone (git@github.com:Preethireddy95/Java-Maven-Hello-World.git)`
+`git clone https://github.com/Preethireddy95/Java-Maven-Hello-World.git`
 ### Change the directory in to Java-Maven-Hello-World
 `cd Java-Maven-Hello-World/`
 ### Build the application
