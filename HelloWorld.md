@@ -1,7 +1,7 @@
 # Build and Deploy Java Maven HelloWorld Application in Tomcat 9 with JDK 8 in Amazon EC2
 
 ## Launch an instance
-Select amazon linux instance and configure the settings. In the step-5 Add tags with the name and in the step-6 configure security group with a new security group(open port 22 in the inbound rule with CIDR 0.0.0.0/0 to access from anywhere for now).
+Select amazon linux instance and configure the settings. In the step-5 Add tags with the name and in the step-6 configure security group with a new security group(open port 22 and 8080 in the inbound rule with CIDR 0.0.0.0/0 to access from anywhere for now).
 A key pair gets downloaded before launching the instance
 ### Change the read only permissions to the pem file
 `chmod 400 Work.pem`
