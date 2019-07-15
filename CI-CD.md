@@ -112,7 +112,7 @@ JENKINS_PORT="8080"
   * Click Save.
 
 ## Create a Pipeline Project using Pipeline script from SCM
-    * Click on New item from main menu in the Jenkins console.
-    * Enter the Name 'Maven-Java-Pipeline-2', select pipeline and then click Ok.
-    * In Pipeline, in the definition select 'Pipeline script from SCM' and select SCM as Git and give the         Repository URL(https://github.com/Preethireddy95/Java-Maven-Hello-World.git) in Repositories where you have your code and Jenkins file.
-    * Click Save.
+  * Click on New item from main menu in the Jenkins console.
+  * Enter the Name 'Maven-Java-Pipeline-2', select pipeline and then click Ok.
+  * In Pipeline, in the definition select 'Pipeline script from SCM' and select SCM as Git and give the         Repository URL(https://github.com/Preethireddy95/Java-Maven-Hello-World.git) in Repositories where you have your code and Jenkins file.
+  * Click Save.
