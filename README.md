@@ -1,2 +1,2 @@
 # Java-Maven-Hello-World
-Hello World Java project using Maven
+Hello World Java project using Maven I have edited
