@@ -26,6 +26,12 @@ sudo /usr/sbin/alternatives --set javac /usr/lib/jvm/jre-1.8.0-openjdk.x86_64/bi
 export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk.x86_64"
 export PATH=$JAVA_HOME/bin:$PATH  
 ```
+### To set the java path to bash_profile
+add below content to `~/.bash_profile` file
+```
+export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk.x86_64"
+export PATH=$JAVA_HOME/bin:$PATH 
+```
 ### To check JAVA_HOME
 `echo $JAVA_HOME`
 
