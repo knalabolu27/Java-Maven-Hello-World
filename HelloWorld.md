@@ -17,7 +17,7 @@ https://bhargavamin.com/how-to-do/setting-up-java-environment-variable-on-ec2/
 sudo yum install java-1.8.0
 sudo yum remove java-1.7.0-openjdk
 ```
-### To check the java installed location
+## To check the java installed location
 `file $(which java)`
 ### To set the java path
 ```
